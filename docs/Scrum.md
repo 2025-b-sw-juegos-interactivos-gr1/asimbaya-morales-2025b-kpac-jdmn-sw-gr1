@@ -284,3 +284,21 @@ Regla: si algo parece 5, **dividirlo** en tareas más pequeñas.
 **Mejorar**
 - En Sprint 8, definir arquitectura UML/patrones (entidades y managers).
 - Estandarizar nombres: sectores, nodos, compuertas y artefacto.
+
+
+## Sprint 8 — Review & Retro
+
+### Review (Qué se entregó)
+- Arquitectura modular + patrones: `/docs/Architecture.md`
+- UML conceptual (clases): `/diagrams/uml/class-diagram.md`
+- FSM dron formal: `/diagrams/fsm/drone-state-diagram.md`
+- Trazabilidad Systems/Mechanics → Arquitectura (v1): `/docs/Traceability_Matrix.md`
+
+### Retro (Qué funcionó / Qué mejorar)
+**Funcionó**
+- Arquitectura quedó trazable a systems y sin componentes de más.
+- EventBus/Observer justifica UI/Audio sin acoplamiento.
+
+**Mejorar**
+- En Sprint 9, consolidar “documentación final”: índice, consistencia de nombres y checklist de entregables.
+- Asegurar que cada epic tenga links a sus docs principales (evidencia para evaluación).

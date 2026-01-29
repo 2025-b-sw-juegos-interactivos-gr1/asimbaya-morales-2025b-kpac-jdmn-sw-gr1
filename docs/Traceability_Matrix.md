@@ -77,3 +77,18 @@ Notas:
 | 3 | Completar N2 | permisos emergencia, advertencia | 07–08 | E3–E4 | Respiro + tensión | checkpoint conceptual |
 | 4 | Recuperar datos | “DERIVA”, anomalía sin firma | 09–10 | E5 | Clímax | evento corto + señales |
 | 5 | Escapar | ventana corta, última señal | 11–12 | E6 | Tensión final | ruta clara + retry |
+
+---
+
+## Systems/Mechanics → Arquitectura (Sprint 8)
+
+| Mechanic/System | Componentes arquitectura | Eventos (publish/subscribe) | Docs/Diagramas |
+|---|---|---|---|
+| Oxígeno (O2) | O2System, UIHUD, AudioDirector | O2_LOW, O2_CRITICAL | `/docs/Architecture.md`, `/docs/GDD.md` |
+| Radiación | RadiationSystem, UIHUD, AudioDirector | RAD_WARNING, RAD_HIGH | `/docs/Architecture.md` |
+| Checkpoints conceptuales | CheckpointSystem, GameState, UIScreens | CHECKPOINT_REACHED | `/docs/Architecture.md` |
+| Dron (amenaza) | DroneAI, DronePerception, EventBus | DRONE_STATE_CHANGED | `/diagrams/fsm/drone-state-diagram.md` |
+| Interacción terminal/logs | InteractionController, Terminal, LogRepository | TERMINAL_OPENED, LOG_ACQUIRED | `/docs/Narrative_Logs.md` |
+| Objetivos por beat | ObjectiveSystem, LevelDirector, UIHUD | OBJECTIVE_SET, OBJECTIVE_DONE | `/docs/LevelDesign.md` |
+| HUD mínimo | UIHUD, UIScreens | (subscribes) O2/RAD/DRONE/OBJECTIVE | `/diagrams/ui-wireframes/wireframes.md` |
+| Audio feedback | AudioDirector, SFXRouter (conceptual) | (subscribes) eventos de systems | `/docs/Art_UX_Audio.md` |
