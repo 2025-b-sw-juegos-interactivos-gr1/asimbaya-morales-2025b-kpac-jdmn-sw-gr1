@@ -107,6 +107,22 @@ El jugador debe sentirse vulnerable pero capaz: cada avance se logra mediante de
 ### Sistemas (resumen)
 El vertical slice usa tres sistemas mínimos: **Oxígeno** (presión), **Radiación** (decisión de ruta) y **Checkpoints conceptuales** (anti-frustración). Todos priorizan feedback claro y castigos graduales.
 
+### Premisa (1 frase)
+En una nave sci-fi parcialmente operativa, un superviviente despierta con sistemas fallando y señales contradictorias: para salir, debe restaurar funciones críticas, recuperar un artefacto de datos y escapar antes de que la nave (y “algo más”) lo alcance.
+
+### Sinopsis (1 párrafo)
+El jugador despierta en un sector estable pero incompleto de la nave. Pronto descubre que la energía está fragmentada y el acceso a áreas clave depende de activar nodos/terminales. Mientras avanza, el entorno revela rastros técnicos y registros que sugieren un incidente no resuelto. Un dron de seguridad patrulla como si el jugador fuera una anomalía, y una presencia difícil de explicar aparece en momentos puntuales, elevando la tensión sin volverse un combate. El vertical slice culmina al recuperar un artefacto de datos que recontextualiza lo ocurrido y abre una ruta de escape, dejando una última señal que sugiere que la nave “aún está funcionando”… pero no de la forma esperada.
+
+### Tono narrativo
+- Sobrio, técnico, ambiental (más “descubrir” que “cinemática”).
+- Revelaciones pequeñas pero constantes (micro-objetivos + logs).
+- Evitar exposición excesiva: el jugador arma la historia.
+
+### Frase / Hook (retroalimentación)
+Propuesta mejorada (más natural y con tensión):
+> “La nave sigue funcionando… pero, ¿quién la está operando?”
+
+*(Conserva tu idea original, pero esta versión suena más inquietante y menos “directa”.)*
 
 ---
 

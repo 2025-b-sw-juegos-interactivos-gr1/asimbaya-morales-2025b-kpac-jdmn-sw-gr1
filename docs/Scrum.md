@@ -249,7 +249,7 @@ Regla: si algo parece 5, **dividirlo** en tareas más pequeñas.
 - Normalizar terminología HUD (O2/exposición/estado dron) en todos los docs.
 
 
-## Sprint 6 — Review & Retro
+### Sprint 6 — Review & Retro
 
 ### Review (Qué se entregó)
 - Dirección de arte v1 (paleta, iluminación, materiales): `/docs/Art_UX_Audio.md`
@@ -267,3 +267,20 @@ Regla: si algo parece 5, **dividirlo** en tareas más pequeñas.
 - En Sprint 7, definir “narrativa y worldbuilding” (logs, arco del slice).
 - Normalizar nombres de sectores/nodos para consistencia narrativa.
 
+
+### Sprint 7 — Review & Retro
+
+### Review (Qué se entregó)
+- Narrativa base + mundo + hook: `/docs/GDD.md`
+- Logs v1 (12) y distribución: `/docs/Narrative_Logs.md` + `/docs/LevelDesign.md`
+- Eventos narrativos (6) con feedback: `/docs/LevelDesign.md` + `/docs/Art_UX_Audio.md`
+- Trazabilidad Narrativa → Beats (v1): `/docs/Traceability_Matrix.md`
+
+### Retro (Qué funcionó / Qué mejorar)
+**Funcionó**
+- Narrativa ambiental dosificada (logs cortos) refuerza inmersión.
+- Eventos crean picos sin convertirlo en combate.
+
+**Mejorar**
+- En Sprint 8, definir arquitectura UML/patrones (entidades y managers).
+- Estandarizar nombres: sectores, nodos, compuertas y artefacto.

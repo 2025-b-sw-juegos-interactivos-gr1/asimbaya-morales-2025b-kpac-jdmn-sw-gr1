@@ -119,3 +119,12 @@ Moodboard textual: `/references/visual/moodboard-textual.md`
 
 Referencia de uso por tramo: `/docs/LevelDesign.md`
 
+---
+
+## Feedback por eventos narrativos (S7)
+- E1 compuerta lenta: metal cruje + parpadeo controlado (sin confundir).
+- E2 radiación: interferencia suave + warning breve + indicador RAD.
+- E3 sombra: subgrave corto + silencio útil (pico sin saturación).
+- E4 patrón dron: beep de búsqueda + indicador DRON cambia a Investigate.
+- E5 señal clímax: pulso + luz roja limitada + subgrave (sin gore).
+- E6 escape: confirmación sobria + guías visuales hacia salida.

@@ -79,5 +79,63 @@ Referencia: `/docs/Art_UX_Audio.md`
 
 ---
 
+## Narrativa por tramo (qué se revela)
+- Tramo 0: el jugador entiende que no hay operador identificado (LOG 01) y que “los sensores mienten” (LOG 02).
+- Tramo 1: el dron se comporta como si el jugador fuera anomalía (LOG 03) y la nave pierde energía (LOG 04).
+- Tramo 2: radiación como decisión informada (LOG 05) y señales de presencia irregular (LOG 06).
+- Tramo 3: permisos de emergencia y condición de acceso (LOG 07); advertencia de “arrastre” (LOG 08).
+- Tramo 4: el artefacto “DERIVA” y anomalía sin firma térmica (LOG 09–10).
+- Tramo 5: escape corto y última señal inquietante (LOG 11–12).
+
+## Distribución de logs (v1)
+- Tramo 0: LOG 01–02
+- Tramo 1: LOG 03–04 (cerca de N1)
+- Tramo 2: LOG 05–06 (antes/después de bifurcación)
+- Tramo 3: LOG 07–08 (cerca de N2 / zona segura)
+- Tramo 4: LOG 09–10 (cámara de datos)
+- Tramo 5: LOG 11–12 (ruta de escape)
+
+---
+
+## Eventos narrativos (picos controlados)
+
+### Evento E1 — Puerta “demasiado lenta” (Tramo 1)
+- Gatillo: el jugador intenta cruzar una compuerta.
+- Efecto: la compuerta se mueve lento + luz parpadea.
+- Feedback: sonido metálico + HUD mantiene objetivo (no confunde).
+- Propósito: primer pico suave.
+
+### Evento E2 — Interferencia de radiación (Tramo 2)
+- Gatillo: entrar a zona marcada (R).
+- Efecto: distorsión visual leve + warning breve.
+- Feedback: interferencia sonora + indicador RAD sube.
+- Propósito: decisión informada.
+
+### Evento E3 — “Sombra” en el punto ciego (Tramo 3)
+- Gatillo: al salir del nodo hacia el pasillo.
+- Efecto: sombra rápida al borde de visión (sin mostrar detalle).
+- Feedback: subgrave corto + silencio posterior (respiro).
+- Propósito: pico de tensión sin combate.
+
+### Evento E4 — Dron cambia patrón (Tramo 3/4)
+- Gatillo: completar Nodo 2.
+- Efecto: el dron pasa a Investigate por tiempo breve.
+- Feedback: beep de búsqueda + indicador DRON cambia.
+- Propósito: tensión controlada tras progreso.
+
+### Evento E5 — “Señal” cerca del artefacto (Tramo 4)
+- Gatillo: acercarse a la cámara de datos.
+- Efecto: luces oscilan + una vibración lejana.
+- Feedback: pulso musical breve + luces rojas limitadas.
+- Propósito: clímax narrativo.
+
+### Evento E6 — Ruta de escape habilitada (Tramo 5)
+- Gatillo: tomar el artefacto.
+- Efecto: compuerta se habilita, luces guían la salida.
+- Feedback: tono de confirmación + objetivo cambia a “Escapar”.
+- Propósito: claridad final (anti-frustración).
+
+---
+
 ## Referencias
 Layout del nivel: `/diagrams/level-layout/vertical-slice-layout.md`

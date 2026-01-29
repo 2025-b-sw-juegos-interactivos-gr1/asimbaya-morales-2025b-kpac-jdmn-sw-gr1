@@ -65,3 +65,15 @@ Notas:
 | Excluida: frustración extrema | zonas seguras claras, checkpoints comunicados | alertas antes del castigo | control del ritmo | sorpresa injusta |
 | Excluida: complejidad excesiva | UI minimalista, señalética simple | audio informativo, no excesivo | claridad | sobrecarga |
 
+---
+
+## Narrativa → Level Beats (Sprint 7)
+
+| Tramo | Objetivo | Revelación narrativa | Log(s) | Evento(s) | Propósito emocional | Mitigación (no saturar) |
+|---|---|---|---|---|---|---|
+| 0 | Orientación | “Operador no identificado”, sensores dudosos | 01–02 | — | Inmersión + intriga | logs cortos, 2 máximo |
+| 1 | Activar N1 | dron trata al jugador como anomalía | 03–04 | E1 | Tensión inicial | objetivo siempre visible |
+| 2 | Elegir ruta | radiación y presencia irregular | 05–06 | E2 | Reto por decisión | warning breve, gradual |
+| 3 | Completar N2 | permisos emergencia, advertencia | 07–08 | E3–E4 | Respiro + tensión | checkpoint conceptual |
+| 4 | Recuperar datos | “DERIVA”, anomalía sin firma | 09–10 | E5 | Clímax | evento corto + señales |
+| 5 | Escapar | ventana corta, última señal | 11–12 | E6 | Tensión final | ruta clara + retry |
