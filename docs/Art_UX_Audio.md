@@ -51,3 +51,71 @@ Wireframes: `/diagrams/ui-wireframes/wireframes.md`
 
 ## Referencias cruzadas
 - Level Design (ritmo y telegraphing): `/docs/LevelDesign.md`
+
+---
+
+## Dirección de Arte v1 (Look & Feel)
+
+### Estilo visual
+- **Sci-fi industrial** (metal, paneles, cableado, señalética técnica).
+- **Realismo controlado:** detalles suficientes para inmersión, pero lectura clara (no “ruido visual”).
+- **Geometría:** pasillos angostos, salas con maquinaria, compuertas, nodos visibles.
+
+### Paleta (base + acentos)
+- **Base:** grises fríos, negro suave, acero (neutral, tensión).
+- **Acentos:**
+  - **Azul/cian:** tecnología funcional, UI/zonas seguras (respiro).
+  - **Ámbar/amarillo:** advertencias técnicas (radiación/alarma suave).
+  - **Rojo:** peligro máximo (solo para chase/clímax, uso limitado).
+- Regla: **1 acento dominante por tramo** para no saturar.
+
+### Iluminación (ritmo emocional)
+- **Tramos de respiro:** iluminación estable, más uniforme, menos parpadeo.
+- **Tramos de tensión:** contrastes fuertes, sombras, luz direccional, parpadeo controlado.
+- **Radiación:** brillo localizado y reconocible (no confundir con UI).
+- **Clímax:** oscilación de luz + sombras marcadas para siluetas (criatura/evento).
+
+### Materiales (guía)
+- **Metal (acero/aleación):** principal; desgaste moderado (rayas, manchas).
+- **Plástico técnico:** paneles de control, carcasas del dron.
+- **Vidrio/visores:** terminales, cabinas (reflejos moderados).
+- **Señalética:** iconos simples, flechas, numeración de sectores.
+- **Radiación:** “haze” / interferencia visual sutil en áreas marcadas.
+
+### Reglas anti-confusión (anti-frustración visual)
+- Radiación siempre marcada de forma consistente (color + forma).
+- Objetivos (nodos/terminales) deben destacarse con acento tecnológico (azul/cian).
+- Evitar exceso de props que bloquee lectura del espacio.
+
+Moodboard textual: `/references/visual/moodboard-textual.md`
+
+---
+
+## Audio Style Guide v1
+
+### Estilo general
+- **Ambiente:** industrial minimalista, drones bajos, ventilación, chasquidos metálicos.
+- **Música:** pulsos sutiles (tensión), casi ausente en respiro, sube en chase/clímax.
+- **Regla:** el audio debe informar estado (telegraphing) sin saturar.
+
+### Capas por emoción
+- **Respiro:** ambiente estable, menos elementos, silencio útil.
+- **Tensión:** drones bajos + detalles mecánicos + señales de dron a distancia.
+- **Clímax:** pulso más marcado + subgrave (criatura/evento) + alarmas breves.
+
+### Lista mínima de SFX (v1)
+**UI/HUD**
+- beep suave (notificación), alerta O2, alerta radiación, confirmación objetivo
+**Interacción**
+- abrir compuerta, terminal click, nodo activación, nodo completado, log adquirido
+**Ambiente**
+- ventilación, goteo, chispa eléctrica, metal cruje, paso lejano
+**Dron**
+- patrol hum, investigate beep, chase alarm corto, search ping, “impacto” no letal
+**Radiación**
+- interferencia suave, warning breve, exposición alta (distorsión)
+**Jugador**
+- respiración normal/forzada, paso suave/rápido
+
+Referencia de uso por tramo: `/docs/LevelDesign.md`
+

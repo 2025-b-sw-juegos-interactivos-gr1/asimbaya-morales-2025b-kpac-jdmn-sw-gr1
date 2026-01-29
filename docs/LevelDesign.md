@@ -69,5 +69,15 @@ Referencia: `/docs/Art_UX_Audio.md` y wireframes en `/diagrams/ui-wireframes/wir
 
 ---
 
+### Nota de Look & Feel (arte/audio)
+Cada tramo usa un acento dominante y una capa sonora coherente:
+- Respiro: luz estable + ambiente limpio (poca música).
+- Tensión: contraste + señales del dron (telegraphing).
+- Radiación: ámbar + interferencia suave.
+- Clímax: rojo limitado + pulso + subgrave (evento criatura).
+Referencia: `/docs/Art_UX_Audio.md`
+
+---
+
 ## Referencias
 Layout del nivel: `/diagrams/level-layout/vertical-slice-layout.md`

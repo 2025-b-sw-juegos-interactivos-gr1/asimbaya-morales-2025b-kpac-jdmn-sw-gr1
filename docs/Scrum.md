@@ -247,3 +247,23 @@ Regla: si algo parece 5, **dividirlo** en tareas más pequeñas.
 **Mejorar**
 - En Sprint 6, definir “arte/moodboard” y paleta final para coherencia visual.
 - Normalizar terminología HUD (O2/exposición/estado dron) en todos los docs.
+
+
+## Sprint 6 — Review & Retro
+
+### Review (Qué se entregó)
+- Dirección de arte v1 (paleta, iluminación, materiales): `/docs/Art_UX_Audio.md`
+- Moodboard textual v1: `/references/visual/moodboard-textual.md`
+- Audio style guide v1 + lista SFX: `/docs/Art_UX_Audio.md`
+- Trazabilidad Aesthetics → Arte/Audio (v1): `/docs/Traceability_Matrix.md`
+- Refuerzo de uso por tramo: `/docs/LevelDesign.md`
+
+### Retro (Qué funcionó / Qué mejorar)
+**Funcionó**
+- Look & Feel quedó justificado por Aesthetics (no decorativo).
+- Paleta por tramo facilita lectura y reduce frustración.
+
+**Mejorar**
+- En Sprint 7, definir “narrativa y worldbuilding” (logs, arco del slice).
+- Normalizar nombres de sectores/nodos para consistencia narrativa.
+

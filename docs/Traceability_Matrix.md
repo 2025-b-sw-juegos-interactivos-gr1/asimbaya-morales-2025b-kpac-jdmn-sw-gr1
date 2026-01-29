@@ -51,3 +51,17 @@ Notas:
 | 3 (S) | Respiro | HUD estable + confirmación nodo | tono calmado + “success” sobrio | Bajo | checkpoint conceptual | `LevelDesign.md` |
 | 4 | Pico 3 | Objetivo “Recuperar datos” + estado dron | chase alarm + evento criatura (subgrave) | Medio-Alto | señales claras + penalización controlada | `MDA.md`, `Art_UX_Audio.md` |
 | 5 | Tensión final | Ruta clara + alertas O2 si aplica | chase/escape cues | Medio | claridad de salida + retry | `wireframes.md` |
+
+---
+
+## Aesthetics → Arte/Audio (Sprint 6)
+
+| Aesthetic | Decisión visual | Decisión sonora | Propósito | Evita |
+|---|---|---|---|---|
+| Tensión | contraste, sombras, puntos ciegos, acento limitado | drones bajos, señales dron, alarmas breves | anticipación constante | saturación/ruido |
+| Narrativa/Inmersión | señalética técnica, props funcionales, terminales con foco | ambiente industrial realista, logs con tono sobrio | “estar dentro” de la nave | estética arcade |
+| Reto | radiación visible + objetivos legibles | warnings claros por umbral | decisión informada | castigo injusto |
+| Excluida: poder absoluto | escala del entorno + amenaza visible | audio de amenaza persistente | vulnerabilidad | power fantasy |
+| Excluida: frustración extrema | zonas seguras claras, checkpoints comunicados | alertas antes del castigo | control del ritmo | sorpresa injusta |
+| Excluida: complejidad excesiva | UI minimalista, señalética simple | audio informativo, no excesivo | claridad | sobrecarga |
+
