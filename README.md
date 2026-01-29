@@ -1,6 +1,8 @@
 # DERIVA (Working Title) — GDD / Arquitectura / Gestión (Scrum)
 
-Proyecto de **Diseño de Videojuegos, Arquitectura y Análisis** (fase de pre-producción).  
+Kevin Asimbaya - Jhon Morales
+
+Proyecto de **Desarollo de Juegos Interactivos** (fase de pre-producción).  
 No se implementa código funcional: el entregable es un **blueprint listo para producción**.
 
 ## High Concept
