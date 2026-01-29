@@ -39,3 +39,15 @@ Notas:
 | 4 | Recuperar datos | evadir + interactuar | O2/radiación (si aplica) | pico criatura + dron | Medio-Alto | pico controlado + feedback | `/docs/MDA.md` |
 | 5 | Escape | moverse/evadir | checkpoint opcional | persecución posible | Medio | ruta clara + señales | `/docs/GDD.md` |
 
+---
+
+## Level Beats → UI/Audio feedback (Sprint 5)
+
+| Tramo | Pico/Respiro | UI clave | Audio/Feedback clave | Riesgo frustración | Mitigación | Referencia |
+|---|---|---|---|---|---|---|
+| 0 (S) | Respiro | Objetivo + HUD O2 básico | ambiente estable, sin alarma | Bajo | onboarding suave | `wireframes.md`, `Art_UX_Audio.md` |
+| 1 | Pico 1 | Estado dron visible + prompt interactuar | patrol→investigate cues | Medio | telegraphing previo a chase | `Art_UX_Audio.md` |
+| 2 | Pico 2 | Indicador radiación + O2 | interferencia + warning breve | Medio | castigo gradual + advertencia | `Architecture.md`, `Art_UX_Audio.md` |
+| 3 (S) | Respiro | HUD estable + confirmación nodo | tono calmado + “success” sobrio | Bajo | checkpoint conceptual | `LevelDesign.md` |
+| 4 | Pico 3 | Objetivo “Recuperar datos” + estado dron | chase alarm + evento criatura (subgrave) | Medio-Alto | señales claras + penalización controlada | `MDA.md`, `Art_UX_Audio.md` |
+| 5 | Tensión final | Ruta clara + alertas O2 si aplica | chase/escape cues | Medio | claridad de salida + retry | `wireframes.md` |

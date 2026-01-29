@@ -229,3 +229,21 @@ Regla: si algo parece 5, **dividirlo** en tareas más pequeñas.
 - En Sprint 5, especificar UI/HUD mínimo (O2, radiación, alerta dron) para reforzar feedback.
 - Definir “eventos de criatura” como beats controlados (sin combate).
 
+
+### Sprint 5 — Review & Retro
+
+### Review (Qué se entregó)
+- HUD mínimo + pantallas clave: `/docs/Art_UX_Audio.md`
+- Wireframes low-fi (HUD/pantallas): `/diagrams/ui-wireframes/wireframes.md`
+- Especificación de audio/feedback (telegraphing): `/docs/Art_UX_Audio.md`
+- Trazabilidad Level → UI/Audio (v1): `/docs/Traceability_Matrix.md`
+- Referencias en GDD y LevelDesign: `/docs/GDD.md`, `/docs/LevelDesign.md`
+
+### Retro (Qué funcionó / Qué mejorar)
+**Funcionó**
+- Feedback consistente reduce frustración y mantiene tensión.
+- Wireframes dan evidencia clara sin diseñar arte final.
+
+**Mejorar**
+- En Sprint 6, definir “arte/moodboard” y paleta final para coherencia visual.
+- Normalizar terminología HUD (O2/exposición/estado dron) en todos los docs.

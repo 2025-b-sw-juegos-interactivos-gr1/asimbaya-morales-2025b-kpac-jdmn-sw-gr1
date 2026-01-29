@@ -49,6 +49,14 @@ Nivel único (vertical slice) ambientado en una nave parcialmente operativa. El 
 - **Respiro 1:** Tramo 0 (tutorialización y orientación).
 - **Respiro 2:** Tramo 3 (tras Nodo 2, breve reorientación).
 
+### Nota de feedback (UI/Audio)
+El ritmo del nivel se apoya en telegraphing claro:
+- Estado del dron siempre comunicado (audio + indicador HUD).
+- Radiación visible + indicador gradual.
+- Alertas de O2 por umbrales, sin saturación.
+Referencia: `/docs/Art_UX_Audio.md` y wireframes en `/diagrams/ui-wireframes/wireframes.md`
+
+
 ### Picos de tensión
 - **Pico 1:** Tramo 1 (primer contacto real con patrulla del dron).
 - **Pico 2:** Tramo 2 (decisión con radiación visible: riesgo vs recompensa).

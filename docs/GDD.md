@@ -117,5 +117,11 @@ Layout 2D: `/diagrams/level-layout/vertical-slice-layout.md`
 
 ---
 
-## VI. Arte y Audio (pendiente)
+## VI. Arte, UI/UX y Audio
+La experiencia se refuerza con HUD mínimo y feedback audiovisual consistente (telegraphing) para evitar frustración extrema.
+Detalle: `/docs/Art_UX_Audio.md`
+Wireframes: `/diagrams/ui-wireframes/wireframes.md`
+
+---
+
 ## VII. Arquitectura de Software (pendiente)
