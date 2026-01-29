@@ -302,3 +302,36 @@ Regla: si algo parece 5, **dividirlo** en tareas más pequeñas.
 **Mejorar**
 - En Sprint 9, consolidar “documentación final”: índice, consistencia de nombres y checklist de entregables.
 - Asegurar que cada epic tenga links a sus docs principales (evidencia para evaluación).
+
+
+## Sprint 9 — Review & Retro
+
+### Review (Qué se entregó)
+- Normalización de docs + links cruzados: `/docs/GDD.md` y docs relacionados
+- README final de entrega: `/README.md`
+- Auditoría de trazabilidad end-to-end: `/docs/Traceability_Matrix.md`
+- Evidencia PM (Projects/Sprints/Fields): `/docs/Scrum.md`
+- Checklist final: `/docs/Delivery_Checklist.md`
+
+### Retro (Qué funcionó / Qué mejorar)
+**Funcionó**
+- La trazabilidad hace que el blueprint sea defendible (decisiones justificadas).
+- La estructura del repo permite evaluación rápida.
+
+**Mejorar**
+- Si se implementa un vertical slice en el futuro: priorizar prototipo de ritmo (beats) y telegraphing antes de pulir detalle visual.
+
+
+## 12) Uso de GitHub Projects (evidencia PM)
+Workflow: Backlog → Ready → In Progress → Review → Done
+
+Fields:
+- Sprint (S0, S1, ...)
+- Estimate (1,2,3,5)
+- Owner (Dev-A, Dev-B, Ambos)
+- Area (GDD, MDA, Architecture, UI/UX, Audio, LevelDesign, Narrative, Management)
+- Doc Link (ruta del archivo/diagrama)
+- Status (columna del board)
+
+Regla del equipo:
+- Ningún issue pasa a Done sin comentario de peer review y link a entregable.

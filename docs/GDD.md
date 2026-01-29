@@ -1,5 +1,16 @@
 # GDD — DERIVA (Título provisional)
 
+## Índice
+- I. Ficha Técnica y Concepto
+- II. Análisis MDA (Aesthetics/Dynamics/Mechanics) → ver `/docs/MDA.md`
+- III. Core Loop → diagrama `/diagrams/core-loop/core-loop.md`
+- IV. Narrativa y Mundo → logs `/docs/Narrative_Logs.md`
+- V. Diseño de Niveles → `/docs/LevelDesign.md` + layout `/diagrams/level-layout/vertical-slice-layout.md`
+- VI. Arte/UI/Audio → `/docs/Art_UX_Audio.md` + wireframes `/diagrams/ui-wireframes/wireframes.md`
+- VII. Arquitectura → `/docs/Architecture.md` + UML `/diagrams/uml/class-diagram.md` + FSM `/diagrams/fsm/drone-state-diagram.md`
+- Trazabilidad total → `/docs/Traceability_Matrix.md`
+
+
 ## I. Ficha Técnica y Concepto
 **Tipo de proyecto:** Juego de entretenimiento  
 **Perspectiva:** Primera Persona (FPS clásico)  
