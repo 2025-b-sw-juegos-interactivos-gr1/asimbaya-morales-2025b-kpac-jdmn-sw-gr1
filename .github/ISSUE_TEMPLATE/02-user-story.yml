@@ -1,0 +1,54 @@
+name: "User Story"
+description: "Historia de usuario (Scrum) con criterios de aceptación"
+title: "US-XX.X | <Como... quiero... para...>"
+labels: ["STORY"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: Historia
+      placeholder: |
+        Como [rol]
+        Quiero [objetivo]
+        Para [beneficio]
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Criterios de Aceptación (AC)
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Entregables (archivos)
+      placeholder: |
+        - /docs/...
+        - /diagrams/...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: estimate
+    attributes:
+      label: Estimación (puntos)
+      options: ["1", "2", "3", "5"]
+    validations:
+      required: true
+
+  - type: dropdown
+    id: owner
+    attributes:
+      label: Owner
+      options:
+        - Dev-A (Kevin)
+        - Dev-B (Jhon)
+        - Ambos (co)
+    validations:
+      required: true

@@ -1,0 +1,56 @@
+name: "EPIC"
+description: "Épica: entrega grande del GDD/Arquitectura/Arte"
+title: "EPIC-XX | <Título>"
+labels: ["EPIC"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Objetivo
+      description: ¿Qué se busca lograr con esta épica?
+      placeholder: "Definir y documentar..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Alcance (incluye / excluye)
+      placeholder: |
+        Incluye:
+        - ...
+        Excluye:
+        - ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Entregables (links a archivos)
+      placeholder: |
+        - /docs/...
+        - /diagrams/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: stories
+    attributes:
+      label: Checklist de historias
+      placeholder: |
+        - [ ] US-XX.X ...
+        - [ ] US-XX.X ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: owner
+    attributes:
+      label: Owner
+      options:
+        - Dev-A (Kevin)
+        - Dev-B (Jhon)
+        - Ambos (co)
+    validations:
+      required: true

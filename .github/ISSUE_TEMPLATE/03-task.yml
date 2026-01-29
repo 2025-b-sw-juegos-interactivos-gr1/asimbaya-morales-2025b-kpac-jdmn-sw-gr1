@@ -1,0 +1,45 @@
+name: "Task"
+description: "Tarea específica (documento/diagrama/organización)"
+title: "TASK | <Acción concreta>"
+labels: ["TASK"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: ¿Qué se hace?
+      placeholder: "Crear/actualizar..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: output
+    attributes:
+      label: Salida / Evidencia
+      placeholder: |
+        - Archivo: /docs/...
+        - Diagrama: /diagrams/...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: dod
+    attributes:
+      label: Definition of Done (DoD)
+      options:
+        - label: Entregable subido al repo
+          required: true
+        - label: Revisión del otro miembro (peer review)
+          required: true
+        - label: Issue enlaza al archivo/diagrama
+          required: true
+
+  - type: dropdown
+    id: owner
+    attributes:
+      label: Owner
+      options:
+        - Dev-A (Kevin)
+        - Dev-B (Jhon)
+        - Ambos (co)
+    validations:
+      required: true

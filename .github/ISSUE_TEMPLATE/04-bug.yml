@@ -1,0 +1,28 @@
+name: "Bug / Inconsistencia"
+description: "Inconsistencia de documento/flujo/entregable"
+title: "BUG | <Qué está mal>"
+labels: ["BUG"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema
+      placeholder: "Se detectó contradicción entre..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado
+      placeholder: "Debería..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: fix
+    attributes:
+      label: Propuesta de corrección
+      placeholder: "Cambiar/actualizar..."
+    validations:
+      required: false
