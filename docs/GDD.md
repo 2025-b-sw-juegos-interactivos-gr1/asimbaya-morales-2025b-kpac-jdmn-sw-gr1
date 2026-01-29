@@ -151,4 +151,39 @@ Wireframes: `/diagrams/ui-wireframes/wireframes.md`
 
 ---
 
-## VII. Arquitectura de Software (pendiente)
+## VII. Arquitectura de Software (Ingeniería)
+
+### Objetivo
+La arquitectura propuesta busca soportar el vertical slice (Web) de forma **modular, mantenible y trazable**, priorizando claridad y evitando complejidad innecesaria. No se implementa código en esta fase; se define el **blueprint técnico** compatible con una futura implementación en Babylon.js.
+
+### Stack propuesto (Vertical Slice futuro)
+- Motor/Render: **Babylon.js** (Web PC / navegador)
+- Lenguaje: **TypeScript/JavaScript**
+- Enfoque: arquitectura **event-driven** para desacoplar Systems de UI/Audio
+
+### Módulos (capas)
+- **Core:** bootstrap, carga de escena, servicios base.
+- **Gameplay:** control del jugador, interacción, director del nivel (beats).
+- **Systems:** oxígeno, radiación, checkpoints, objetivos.
+- **AI:** dron (FSM) y percepción conceptual.
+- **UI:** HUD mínimo y pantallas (menú/pausa/terminal/game over).
+- **Audio:** capas por emoción + ruteo de SFX (telegraphing).
+- **Data:** logs narrativos y estado conceptual (snapshots).
+
+### Patrones seleccionados (justificación)
+- **Observer / EventBus:** reduce acoplamiento (Systems publican; UI/Audio reaccionan).
+- **State (FSM):** controla IA del dron con transiciones claras.
+- **Component:** composición de comportamiento sin jerarquías rígidas.
+- **Factory:** creación consistente de entidades del nivel.
+- **Singleton (limitado):** solo para servicios globales estrictos (p.ej. EventBus/AudioDirector).
+
+### Persistencia (conceptual)
+- Guardado por **checkpoints conceptuales** (zonas seguras / nodos) mediante snapshots de estado (sin backend).
+
+### Diagramas y referencias técnicas
+- Arquitectura detallada: `/docs/Architecture.md`
+- UML clases (conceptual): `/diagrams/uml/class-diagram.md`
+- FSM dron (formal): `/diagrams/fsm/drone-state-diagram.md`
+- Layout del nivel: `/diagrams/level-layout/vertical-slice-layout.md`
+- Trazabilidad: `/docs/Traceability_Matrix.md`
+
