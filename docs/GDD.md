@@ -80,7 +80,36 @@ El jugador debe sentirse vulnerable pero capaz: cada avance se logra mediante de
 
 ---
 
-## IV. Narrativa y Mundo (pendiente)
+## IV. Mechanics v1 (Verbos + reglas base)
+
+### Verbos mínimos del jugador
+1) **Moverse** (caminar/correr controlado): prioriza ritmo y ruido (decisión).
+2) **Observar/escaneo**: leer señales del entorno (luz/sonido/indicadores).
+3) **Interactuar**: usar terminales/nodos, abrir compuertas, activar sistemas.
+4) **Ocultarse/evadir**: romper línea de visión, usar cobertura y timing.
+5) **Gestionar recursos**: oxígeno como presión constante (decidir ruta/tiempo).
+6) **Recuperar evidencia narrativa**: logs/artefactos que avanzan el contexto.
+7) **Uso mínimo de “defensa no letal” (opcional conceptual)**: herramienta para ganar tiempo, no para dominar.
+
+### Reglas base (sin implementación)
+- **Oxígeno:** consumo constante + alertas por umbrales; zonas/acciones pueden recuperar o estabilizar.
+- **Radiación visible:** entrar en zona acumula exposición; penalización gradual (nunca “insta-fail” sin aviso).
+- **Amenaza (dron):** el jugador evita exposición; la IA responde a visión/sonido/tiempo.
+- **Progreso por micro-objetivos:** nodos/terminales desbloquean rutas y entregan narrativa.
+- **Checkpoints conceptuales:** se activan en puntos lógicos (zonas seguras/nodos) para evitar repetición.
+
+### Límites (anti-complejidad)
+- Sin crafting extenso.
+- Sin árbol de habilidades.
+- Sin inventario complejo (si hay ítems, son pocos y funcionales).
+- Sin combate que genere “poder absoluto”.
+
+### Sistemas (resumen)
+El vertical slice usa tres sistemas mínimos: **Oxígeno** (presión), **Radiación** (decisión de ruta) y **Checkpoints conceptuales** (anti-frustración). Todos priorizan feedback claro y castigos graduales.
+
+
+---
+
 ## V. Diseño de Niveles (pendiente)
 ## VI. Arte y Audio (pendiente)
 ## VII. Arquitectura de Software (pendiente)

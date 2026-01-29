@@ -171,3 +171,42 @@ Regla: si algo parece 5, **dividirlo** en tareas más pequeñas.
 **Mejorar**
 - Mantener “Doc Link” siempre actualizado al cerrar cada issue.
 - Definir desde el inicio de sprint el criterio de “ventana de respiro” para no reinterpretarlo después.
+
+
+### Sprint 2 — Review & Retro
+
+### Review (Qué se entregó)
+- Dynamics MDA definidas y justificadas: `/docs/MDA.md`
+- Resumen de Dynamics integrado en el GDD: `/docs/GDD.md`
+- Core Loop final (texto + reglas de coherencia) en el GDD: `/docs/GDD.md`
+- Diagrama textual del Core Loop: `/diagrams/core-loop/core-loop.md`
+- Matriz de trazabilidad Aesthetics → Dynamics (v1): `/docs/Traceability_Matrix.md`
+
+### Retro (Qué funcionó / Qué mejorar)
+**Funcionó**
+- Aesthetics → Dynamics quedó trazable (sin contradicciones).
+- Core Loop se alinea con amenaza dual y presión (oxígeno/radiación) sin añadir sistemas innecesarios.
+
+**Mejorar**
+- En Sprint 3, fijar “verbos mínimos” antes de escribir mecánicas (evita retrabajo).
+- Mantener el Doc Link actualizado apenas un entregable cambie (no al final).
+
+
+### Sprint 3 — Review & Retro
+
+### Review (Qué se entregó)
+- Mechanics v1 (verbos + reglas + límites): `/docs/GDD.md`
+- Mechanics encajadas en MDA: `/docs/MDA.md`
+- FSM del dron documentada: `/diagrams/fsm/drone-fsm.md`
+- IA + Systems v1 (O2/Radiación/Checkpoints): `/docs/Architecture.md`
+- Matriz Dynamics → Mechanics (v1): `/docs/Traceability_Matrix.md`
+
+### Retro (Qué funcionó / Qué mejorar)
+**Funcionó**
+- Reglas y amenazas quedaron especificadas sin entrar en implementación.
+- Anti-frustración se reflejó en IA y sistemas (feedback + castigo gradual).
+
+**Mejorar**
+- En Sprint 4, definir “Level Slice” (layout) antes de expandir sistemas.
+- Mantener consistencia de términos (O2/exposición/zonas seguras) en todos los docs.
+

@@ -12,3 +12,16 @@
 Notas:
 - Esta matriz prueba coherencia entre experiencia deseada y dinámicas diseñadas.
 - En Sprint 3 se ampliará a Dynamics → Mechanics y Systems.
+
+---
+
+## Dynamics → Mechanics (Sprint 3)
+
+| Dynamic | Mechanics que la soportan | Riesgo de frustración | Mitigación (anti-frustración) | Referencia |
+|---|---|---|---|---|
+| D1 Presión por oxígeno | O2 (consumo/umbrales/alertas), zonas de recuperación | Alto | feedback claro + ventanas de respiro | `/docs/GDD.md`, `/docs/Architecture.md` |
+| D2 Amenaza persistente | FSM dron (LoS/sonido/tiempo), estados Patrol/Chase/Search | Medio | telegraphing + penalización no letal | `/diagrams/fsm/drone-fsm.md` |
+| D3 Amenaza dual | FSM dron + eventos criatura (picos) | Medio | picos controlados + checkpoints conceptuales | `/docs/MDA.md`, `/docs/GDD.md` |
+| D4 Riesgo vs recompensa | radiación visible + exposición gradual | Medio | advertencias + castigo gradual | `/docs/Architecture.md` |
+| D5 Exploración cautelosa | verbos observar/escaneo + señales ambientales | Bajo | señales consistentes | `/docs/GDD.md` |
+| D7 Ventanas de respiro | zonas seguras + reducción de amenaza (Idle) | Bajo | diseño de ritmo | `/docs/MDA.md`, `/docs/Architecture.md` |

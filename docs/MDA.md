@@ -53,3 +53,15 @@ Estas dinámicas están diseñadas para producir:
 - **Reto** (D4, D6),
 evitando **frustración extrema** (D7, D8) y **complejidad excesiva** (sistemas mínimos).
 
+---
+
+## Mechanics (Mecánicas: reglas que soportan las Dynamics)
+
+- **Verbos mínimos:** moverse, observar/escaneo, interactuar, evadir, gestionar oxígeno, recuperar narrativa.
+- **Reglas de presión:** oxígeno como reloj táctico (umbral/alertas), radiación visible con exposición gradual.
+- **Reglas de amenaza:** dron con FSM (visión/sonido/tiempo) para presión persistente.
+- **Anti-frustración:** ventanas de respiro + checkpoints conceptuales + feedback consistente.
+
+> Detalle de Mechanics v1 en `/docs/GDD.md` y FSM del dron en `/diagrams/fsm/drone-fsm.md`.
+
+
