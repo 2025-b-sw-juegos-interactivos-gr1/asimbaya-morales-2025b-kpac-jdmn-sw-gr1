@@ -42,12 +42,44 @@ Juego de supervivencia narrativa en primera persona ambientado en una nave sci-f
 - **Secundaria:** Reto  
 - **Excluidas:** Poder absoluto, Frustración extrema, Complejidad excesiva  
 
+### Dynamics (Resumen)
+- **Presión por oxígeno:** decisiones de ritmo y ruta bajo reloj táctico.
+- **Amenaza persistente (evitar > enfrentar):** el dron obliga a ocultarse, observar y planificar.
+- **Amenaza dual:** dron como presión constante + criatura como picos/eventos.
+- **Riesgo vs recompensa:** radiación visible crea decisiones justas (atajo riesgoso vs ruta segura).
+- **Exploración cautelosa:** el jugador lee el entorno y reconstruye historia (inmersión).
+- **Micro-objetivos:** nodos/terminales encadenan progreso y narrativa.
+- **Anti-frustración:** ventanas de respiro + checkpoints conceptuales.
+
+> Detalle completo en `/docs/MDA.md`.
+
 **Declaración de experiencia:**  
 El jugador debe sentirse vulnerable pero capaz: cada avance se logra mediante decisiones conscientes bajo presión (oxígeno, amenaza y radiación), mientras reconstruye la historia de la nave a través de pistas ambientales, logrando una tensión constante con picos controlados y descanso estratégico.
 
 ---
 
-## III. Mecánicas detalladas (pendiente de Sprint 2)
+## III. Core Loop (Final v1)
+
+### Core Loop (pasos)
+1) **Orientar objetivo:** el jugador identifica el siguiente micro-objetivo (nodo/terminal/acceso).
+2) **Explorar con cautela:** avanza leyendo señales del entorno (luz/sonido/logs).
+3) **Detectar presión y amenazas:** oxígeno + radiación visible + patrón del dron.
+4) **Decidir ruta y ritmo:** elegir entre seguridad/tiempo/riesgo (ruta alternativa o atajo).
+5) **Ejecutar interacción:** activar/reparar nodo, abrir acceso, recuperar log, habilitar progreso.
+6) **Recompensa y actualización de estado:** progreso + narrativa (log/evento) + cambio del entorno.
+7) **Respiro / checkpoint conceptual:** ventana segura o segmento de baja amenaza para reorientación.
+8) **Repetir hasta objetivo final:** recuperar artefacto de datos y habilitar escape.
+
+### Variación de picos (amenaza dual)
+- El dron mantiene presión constante.
+- La criatura aparece como evento puntual para “subir la tensión” y romper la rutina, sin convertir el juego en combate.
+
+### Reglas de coherencia (para no romper el diseño)
+- Cada paso del loop debe reforzar **tensión + inmersión** sin añadir sistemas innecesarios.
+- El reto debe venir de **decisiones** (ruta/tiempo/recursos), no de complejidad.
+
+---
+
 ## IV. Narrativa y Mundo (pendiente)
 ## V. Diseño de Niveles (pendiente)
 ## VI. Arte y Audio (pendiente)

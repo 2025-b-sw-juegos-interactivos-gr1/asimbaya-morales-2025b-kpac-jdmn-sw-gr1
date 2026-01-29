@@ -151,3 +151,23 @@ Regla: si algo parece 5, **dividirlo** en tareas más pequeñas.
 - Nada pasa a Done sin revisión del otro.
 - Ready significa “se puede hacer ya”, no “algún día”.
 - Si un issue queda bloqueado, se etiqueta como `blocked` y se documenta el motivo.
+
+---
+
+## 11) SPRINTS
+
+### Sprint 1 — Review & Retro
+
+### Review (Qué se entregó)
+- Sección I del GDD completada (High Concept): `/docs/GDD.md`
+- Aesthetics MDA formal documentada: `/docs/MDA.md`
+- Reglas anti-frustración y límites de complejidad integrados en el GDD: `/docs/GDD.md`
+
+### Retro (Qué funcionó / Qué mejorar)
+**Funcionó**
+- Flujo de tablero con Review obligatorio (peer review) antes de Done.
+- Entregables con Doc Link trazable por issue.
+
+**Mejorar**
+- Mantener “Doc Link” siempre actualizado al cerrar cada issue.
+- Definir desde el inicio de sprint el criterio de “ventana de respiro” para no reinterpretarlo después.
