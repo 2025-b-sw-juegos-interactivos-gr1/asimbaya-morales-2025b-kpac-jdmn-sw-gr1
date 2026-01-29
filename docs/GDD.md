@@ -1,43 +1,54 @@
 # GDD — DERIVA (Título provisional)
 
-## I. Ficha Técnica y Concepto (FASE 1)
+## I. Ficha Técnica y Concepto
+**Tipo de proyecto:** Juego de entretenimiento  
+**Perspectiva:** Primera Persona (FPS clásico)  
+**Plataforma objetivo (Vertical Slice):** Web PC (Navegador)  
+**Tecnología objetivo (futuro):** Babylon.js  
+**Controles:** Teclado + mouse  
+**Duración objetivo:** 1–2 horas (experiencia “media”)  
+**Mundo:** Sci-Fi  
+**Rol del jugador:** Superviviente  
 
+### High Concept (1 frase)
+Un superviviente atrapado en una nave parcialmente operativa debe **reparar sistemas**, **recuperar un artefacto de datos** y **escapar**, mientras gestiona oxígeno, evita radiación visible y sobrevive a una amenaza dual (dron activo + presencia de criatura).
 
 ### Elevator Pitch
+Juego de supervivencia narrativa en primera persona ambientado en una nave sci-fi que aún funciona “a medias”. El jugador progresa por micro-objetivos (nodos/terminales), gestiona oxígeno y toma decisiones de ruta bajo presión. Una IA en forma de dron patrulla y castiga la exposición, mientras que una criatura aparece como eventos/picos de tensión. El enfoque es **tensión + inmersión**, con **reto justo** y sin sistemas innecesarios.
 
-### Pilares de diseño
+### Pilares de diseño (3)
+1. **Tensión sostenida sin frustración extrema:** presión constante con ventanas de respiro planificadas.  
+2. **Narrativa ambiental inmersiva:** historia fragmentada por logs, señales del entorno y revelaciones por objetivos.  
+3. **Reto justo, reglas simples:** decisiones claras (ruta/tiempo/recursos) sin complejidad excesiva.
 
-### Restricciones (No-Goals)
+### Restricciones / No-Goals (lo que NO será)
+- **No multijugador:** experiencia single player enfocada en inmersión.  
+- **No mundo abierto completo:** nivel lineal por tramos para controlar ritmo y tensión.  
+- **No sistemas innecesarios:** sin crafting extenso, sin árbol de habilidades, sin inventarios complejos, sin combate “power fantasy”.
 
----
-
-## II. Análisis MDA (FASE 1–3)
-### Aesthetics (Objetivo emocional)
-
-
-### Dynamics (FASE 2)
-
-
-### Mechanics (FASE 3)
-
-
----
-
-## III. Core Loop (FASE 3)
+### Reglas anti-frustración (para mantener “Reto” sin “Frustración extrema”)
+- **Ventanas de respiro:** secciones seguras o de baja amenaza donde el jugador puede reorientarse y planificar.  
+- **Feedback claro y consistente:** señales visuales/sonoras para oxígeno, radiación y proximidad de amenaza.  
+- **Checkpoints conceptuales:** progreso protegido en puntos lógicos (zonas seguras / nodos) para evitar repetición excesiva.  
+- **Aprendizaje sin castigo injusto:** amenazas y radiación se comunican antes de penalizar fuerte (telemetría visible, advertencias).  
 
 ---
 
-## IV. Narrativa y Mundo (FASE 5)
+## II. Análisis MDA (Resumen)
+> El detalle formal vive en `/docs/MDA.md`. Esta sección referencia la experiencia objetivo.
+
+### Aesthetics (Experiencia objetivo)
+- **Primarias:** Tensión, Narrativa/Inmersión  
+- **Secundaria:** Reto  
+- **Excluidas:** Poder absoluto, Frustración extrema, Complejidad excesiva  
+
+**Declaración de experiencia:**  
+El jugador debe sentirse vulnerable pero capaz: cada avance se logra mediante decisiones conscientes bajo presión (oxígeno, amenaza y radiación), mientras reconstruye la historia de la nave a través de pistas ambientales, logrando una tensión constante con picos controlados y descanso estratégico.
 
 ---
 
-## V. Diseño de Niveles (FASE 5)
-
-
----
-
-## VI. Arte y Audio (FASE 6)
-
----
-
-## VII. Arquitectura de Software (FASE 7)
+## III. Mecánicas detalladas (pendiente de Sprint 2)
+## IV. Narrativa y Mundo (pendiente)
+## V. Diseño de Niveles (pendiente)
+## VI. Arte y Audio (pendiente)
+## VII. Arquitectura de Software (pendiente)
