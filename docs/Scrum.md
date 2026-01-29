@@ -210,3 +210,22 @@ Regla: si algo parece 5, **dividirlo** en tareas más pequeñas.
 - En Sprint 4, definir “Level Slice” (layout) antes de expandir sistemas.
 - Mantener consistencia de términos (O2/exposición/zonas seguras) en todos los docs.
 
+
+### Sprint 4 — Review & Retro
+
+### Review (Qué se entregó)
+- Beats del nivel (tramos + objetivos): `/docs/LevelDesign.md`
+- Layout 2D ASCII del vertical slice: `/diagrams/level-layout/vertical-slice-layout.md`
+- Reglas de ritmo (picos y respiros) + telegraphing: `/docs/LevelDesign.md`
+- Trazabilidad Mechanics/Systems → Level Beats (v1): `/docs/Traceability_Matrix.md`
+- Referencia en GDD: `/docs/GDD.md`
+
+### Retro (Qué funcionó / Qué mejorar)
+**Funcionó**
+- El nivel traduce Dynamics/Mechanics en experiencia concreta.
+- Bifurcación riesgo vs recompensa aporta reto sin complejidad.
+
+**Mejorar**
+- En Sprint 5, especificar UI/HUD mínimo (O2, radiación, alerta dron) para reforzar feedback.
+- Definir “eventos de criatura” como beats controlados (sin combate).
+

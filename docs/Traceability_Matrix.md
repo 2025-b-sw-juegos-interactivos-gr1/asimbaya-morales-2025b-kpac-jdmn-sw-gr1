@@ -25,3 +25,17 @@ Notas:
 | D4 Riesgo vs recompensa | radiación visible + exposición gradual | Medio | advertencias + castigo gradual | `/docs/Architecture.md` |
 | D5 Exploración cautelosa | verbos observar/escaneo + señales ambientales | Bajo | señales consistentes | `/docs/GDD.md` |
 | D7 Ventanas de respiro | zonas seguras + reducción de amenaza (Idle) | Bajo | diseño de ritmo | `/docs/MDA.md`, `/docs/Architecture.md` |
+
+---
+
+## Mechanics/Systems → Level Beats (Sprint 4)
+
+| Tramo (Beat) | Objetivo | Mechanics clave | Systems clave | Amenaza | Riesgo frustración | Mitigación | Referencia |
+|---|---|---|---|---|---|---|---|
+| 0 (S) | Orientación | observar/escaneo, interactuar | O2 (feedback), checkpoints | baja | Bajo | respiro + objetivos claros | `/docs/LevelDesign.md` |
+| 1 | Activar Nodo 1 | moverse, evadir, interactuar | O2 | dron patrol/chase | Medio | telegraphing + rutas claras | `/diagrams/fsm/drone-fsm.md` |
+| 2 | Elegir ruta | decidir ruta/ritmo | radiación visible, O2 | dron + ambiente | Medio | castigo gradual + advertencia | `/docs/Architecture.md` |
+| 3 (S) | Completar Nodo 2 | interactuar, reorientar | checkpoint conceptual | dron investigate | Bajo | respiro + checkpoint | `/docs/LevelDesign.md` |
+| 4 | Recuperar datos | evadir + interactuar | O2/radiación (si aplica) | pico criatura + dron | Medio-Alto | pico controlado + feedback | `/docs/MDA.md` |
+| 5 | Escape | moverse/evadir | checkpoint opcional | persecución posible | Medio | ruta clara + señales | `/docs/GDD.md` |
+

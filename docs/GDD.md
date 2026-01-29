@@ -110,6 +110,12 @@ El vertical slice usa tres sistemas mínimos: **Oxígeno** (presión), **Radiaci
 
 ---
 
-## V. Diseño de Niveles (pendiente)
+## V. Diseño de Niveles (Vertical Slice)
+El vertical slice se desarrolla en un único nivel (nave) dividido en tramos con objetivos claros, picos de tensión y ventanas de respiro para evitar frustración extrema.  
+Detalle completo: `/docs/LevelDesign.md`  
+Layout 2D: `/diagrams/level-layout/vertical-slice-layout.md`
+
+---
+
 ## VI. Arte y Audio (pendiente)
 ## VII. Arquitectura de Software (pendiente)
