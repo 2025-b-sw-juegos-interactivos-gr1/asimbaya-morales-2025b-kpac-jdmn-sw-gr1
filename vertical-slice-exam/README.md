@@ -1,5 +1,11 @@
 # DERIVA — Vertical Slice (Enfocado en Mecánicas)
 
+### Autores:
+- Kevin Asimbaya
+- Jhon Morales
+
+---
+
 Vertical Slice del proyecto **DERIVA** (FPS Sci-Fi) enfocado en validar **mecánicas core** en una escena pequeña funcional y pulida.
 
 ## Objetivo del Slice (qué valida)
