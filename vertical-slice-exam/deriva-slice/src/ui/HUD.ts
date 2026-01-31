@@ -54,7 +54,7 @@ export class HUD {
         this.endText.text = "";
         this.endText.color = "white";
         this.endText.fontSize = 44;
-        this.endText.top = "0px";
+        this.endText.top = "-20px";
         this.endText.textHorizontalAlignment = 1;
         this.endText.textVerticalAlignment = 1;
         this.ui.addControl(this.endText);

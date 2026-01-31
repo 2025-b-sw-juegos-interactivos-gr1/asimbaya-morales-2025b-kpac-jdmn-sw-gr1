@@ -34,7 +34,9 @@ export class Game {
     start() {
         // Luz base
         const light = new HemisphericLight("hemi", new Vector3(0, 1, 0), this.scene);
-        light.intensity = 0.8;
+        light.intensity = 0.5;
+        light.groundColor.set(0.03, 0.03, 0.04);
+        this.scene.clearColor = new Color4(0.01, 0.01, 0.015, 1);
 
         // Sistemas base
         this.audio = new AudioManager();
@@ -55,6 +57,10 @@ export class Game {
         // Hook events para feedback mínimo
         this.bus.on("TERMINAL_ACTIVATED", () => this.audio.beep(880, 0.07));
         this.bus.on("SLICE_COMPLETED", () => this.audio.beep(523, 0.12));
+        this.bus.on("DRONE_STATE_CHANGED", (p: any) => {
+            if (p?.state === "CHASE") this.audio.beep(220, 0.16);
+        });
+
 
         // Game loop
         this.scene.onBeforeRenderObservable.add(() => {
